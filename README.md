@@ -9,7 +9,11 @@
 #Note: Using gmail - Go into gmail account settings/security and turn on less secure apps. This will prevent google from blocking emails being sent from devices like Rpi.
 
 #Type
+
 sudo nano /etc/rc.local 
+
 #You will find #Print the IP address right below that and before the other code enter the following
+
 python /home/pi/Mystuff/StartupIP.py $
+
 # This will run the program everytime the raspberry pi is started.
