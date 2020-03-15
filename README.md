@@ -12,7 +12,11 @@
 
 sudo nano /etc/rc.local 
 
-#You will find #Print the IP address right below that and before the other code enter the following
+#You will find 
+
+#Print the IP address 
+
+right below that and before the other code enter the following
 
 python /home/pi/Mystuff/StartupIP.py $
 
